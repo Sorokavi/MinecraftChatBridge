@@ -1,0 +1,18 @@
+name: DiscordBridge
+version: ${project.version}
+main: net.neonation.discordbridge.DiscordBridgePlugin
+api-version: 1.19
+author: NeoNation
+description: Bridges Minecraft chat with Discord via WebSocket
+
+commands:
+  discordbridge:
+    description: Discord bridge commands
+    usage: /<command> [reload]
+    permission: discordbridge.admin
+    aliases: [db, bridge]
+
+permissions:
+  discordbridge.admin:
+    description: Allows access to admin commands
+    default: op

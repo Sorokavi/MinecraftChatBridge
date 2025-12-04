@@ -1,0 +1,20 @@
+# Discord Bridge Plugin Configuration
+
+# WebSocket connection settings
+websocket:
+  # URL of WebSocket server
+  url: "wss://websocket.url/here"
+  
+  # Reconnection delay in seconds if connection is lost
+  reconnect-delay: 5
+
+# Features
+features:
+  # Send join/leave messages
+  join-leave-messages: true
+  
+  # Send death messages
+  death-messages: true
+  
+  # Send advancement notifications
+  advancements: true
